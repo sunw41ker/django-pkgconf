@@ -1,6 +1,6 @@
 import sys
 from functools import partial, update_wrapper
-from django.utils import six
+import six
 
 
 def proxy(attr, default):
